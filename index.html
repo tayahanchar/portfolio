@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/ico/camera.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>portfolio</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container header-container">
+        <a href="#">
+          <svg class="logo">
+            <use xlink:href="./assets/svg/sprite.svg#logo"></use>
+          </svg>
+        </a>
+  
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a data-i18="skills" href="#skills">Skills</a></li>
+            <li class="nav__item"><a data-i18="portfolio" href="#portfolio">Portfolio</a></li>
+            <li class="nav__item"><a data-i18="video" href="#video">Video</a></li>
+            <li class="nav__item"><a data-i18="price" href="#price">Price</a></li>
+            <li class="nav__item"><a data-i18="contacts" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+  
+        <ul id="burger__list" class="burger__list">
+          <li><a data-i18="skills" class="burger__item" href="#skills">Skills</a></li>
+          <li><a data-i18="portfolio" class="burger__item" href="#portfolio">Portfolio</a></li>
+          <li><a data-i18="video" class="burger__item" href="#video">Video</a></li>
+          <li><a data-i18="price" class="burger__item" href="#price">Price</a></li>
+          <li><a data-i18="contacts" class="burger__item" href="#contacts">Contacts</a></li>
+        </ul>
+  
+        <div class="language">
+          <div class="lang language-en"><a class="language__link" href="#">EN</a></div>
+          <span>/</span>
+          <div class="lang language-ru"><a class="language__link"  href="#">RU</a></div>
+        </div>
+
+        <div class="theme">
+          <button class="button__svg">
+            <svg class="theme-svg sun">
+              <use href="./assets/svg/sprite2.svg#sun"></use>
+            </svg>
+            <svg class="theme-svg moon theme__display-none">
+              <use href="./assets/svg/sprite2.svg#moon"></use>
+            </svg>
+          </button>
+        </div>
+  
+        <div class="burger">
+          <div id="line1" class="burger__line"></div>
+          <div id="line2" class="burger__line"></div>
+          <div id="line3" class="burger__line"></div>
+        </div>
+      </div>
+    </header>
+  
+    <main class="main">
+        <div class="container hero-container">
+          <section class="hero">
+            <h1 data-i18="hero-title" class="hero__title">Alexa Rise</h1>
+  
+            <p data-i18="hero-text" class="hero__text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+  
+            <button data-i18="hire" class="btn-gold btn1">Hire me</button>
+          </section>
+        </div>
+  
+        <div class="container">
+          <section class="skills" id="skills">
+            <div class="title__container title__skills">
+              <h2 class="section-title section-skills">Skills</h2>
+            </div>
+    
+            <div class="skills__list">
+              <div class="skills__item">
+                <img class="skills__img" src="./assets/svg/camera.svg" alt="camera">
+                <p data-i18="skill-title-1" class="skills__title">Digital photography</p>
+                <p data-i18="skill-text-1" class="skills__text">High-quality photos in the studio and on the nature</p>
+              </div>
+  
+              <div class="skills__item">
+                <img class="skills__img" src="./assets/svg/video.svg" alt="video">
+                <p data-i18="skill-title-2" class="skills__title">Video shooting</p>
+                <p data-i18="skill-text-2" class="skills__text">Capture your moments so that they always stay with you</p>
+              </div>
+  
+              <div class="skills__item">
+                <img class="skills__img" src="./assets/svg/retouch.svg" alt="retouch">
+                <p data-i18="skill-title-3" class="skills__title">Retouch</p>
+                <p data-i18="skill-text-3" class="skills__text">I strive to make photography surpass reality</p>
+              </div>
+  
+              <div class="skills__item">
+                <img class="skills__img" src="./assets/svg/mic.svg" alt="audio">
+                <p data-i18="skill-title-4" class="skills__title">Audio</p>
+                <p data-i18="skill-text-4" class="skills__text text-padding">Professional sounds recording for video, advertising, portfolio</p>
+              </div>
+            </div>
+          </section>
+        </div>
+        
+        <div class="container">
+          <section class="portfolio" id="portfolio">
+            <div class="title__container title__portfolio">
+              <h2 data-i18="portfolio" class="section-title section-portfolio">Portfolio</h2>
+            </div>
+  
+            <div class="portfolio__btns">
+              <button data-i18="winter" class="portfolio__btn" data-season="winter" btn6>Winter</button>
+              <button data-i18="spring" class="portfolio__btn" data-season="spring">Spring</button>
+              <button data-i18="summer" class="portfolio__btn" data-season="summer">Summer</button>
+              <button data-i18="autumn" class="portfolio__btn btn-open" data-season="autumn">Autumn</button>
+            </div>
+  
+            <div class="portfolio__galery">
+              <div><img class="portfolio__img" src="./assets/img/autumn/1.jpg" alt="photo"></div>
+              <div><img class="portfolio__img" src="./assets/img/autumn/2.jpg" alt="photo"></div>
+              <div><img class="portfolio__img" src="./assets/img/autumn/3.jpg" alt="photo"></div>
+              <div><img class="portfolio__img" src="./assets/img/autumn/4.jpg" alt="photo"></div>
+              <div><img class="portfolio__img" src="./assets/img/autumn/5.jpg" alt="photo"></div>
+              <div><img class="portfolio__img" src="./assets/img/autumn/6.jpg" alt="photo"></div>
+            </div>
+          </section>
+        </div>
+  
+        <div class="video__container">
+          <section class="video" id="video">
+            <div class="title__container title__video">
+              <h2 data-i18="video" class="section-title video__title">Video</h2>
+            </div>
+  
+            <div class="video">
+              <img class="video__img" src="./assets/img/video-player.jpg" alt="video">
+              <button class="video__btn">
+                <svg class="hover">
+                  <use xlink:href="./assets/svg/sprite.svg#hover"></use>
+                </svg>
+              </button>
+            </div>
+          </section>
+        </div>
+  
+        <div class="container">
+          <section class="price" id="price">
+            <div class="title__container title__price">
+              <h2 data-i18="price" class="section-title price__title">Price</h2>
+            </div>
+  
+            <div class="price__list">
+              <div class="price__item">
+                <div data-i18="standard" class="price__rate">Standard</div>
+                <div class="rate__price">500 $</div>
+                <div class="price__desc">
+                  <p data-i18="price-description-1-location" class="price__par">One location</p>
+                  <p data-i18="price-description-1-photos" class="price__par">120 photos in color</p>
+                  <p data-i18="price-description-1-retouch" class="price__par">12 photos in retouch</p>
+                  <p data-i18="price-description-1-weeks" class="price__par">Readiness 2-3 weeks</p>
+                  <p data-i18="price-description-1-visage" class="price__par">Make up, visage</p>
+                </div>
+                <button data-i18="order" class="btn-price btn2">Order shooting</button>
+              </div>
+  
+              <div class="price__item">
+                <div data-i18="premium" class="price__rate">Premium</div>
+                <div class="rate__price">700 $</div>
+                <div class="price__desc">
+                  <p data-i18="price-description-2-location" class="price__par">One or two locations</p>
+                  <p data-i18="price-description-2-photos" class="price__par">200 photos in color</p>
+                  <p data-i18="price-description-2-retouch" class="price__par">20 photos in retouch</p>
+                  <p data-i18="price-description-2-weeks" class="price__par">Readiness 1-2 weeks</p>
+                  <p data-i18="price-description-2-visage" class="price__par">Make up, visage</p>
+                </div>
+                <button data-i18="order" class="btn-price btn3">Order shooting</button>
+              </div>
+  
+              <div class="price__item">
+                <div data-i18="gold"  class="price__rate">Gold</div>
+                <div class="rate__price">1000 $</div>
+                <div class="price__desc">
+                  <p data-i18="price-description-3-location" class="price__par">Three locations or more</p>
+                  <p data-i18="price-description-3-photos" class="price__par">300 photos in color</p>
+                  <p data-i18="price-description-3-retouch" class="price__par">50 photos in retouch</p>
+                  <p data-i18="price-description-3-weeks" class="price__par">Readiness 1 week</p>
+                  <p data-i18="price-description-3-visage" class="price__par">Make up, visage, hairstyle</p>
+                </div>
+                <button data-i18="order" class="btn-price btn4">Order shooting</button>
+              </div>
+            </div>
+          </section>
+        </div>
+  
+        <div class="contacts__container">
+          <section class="contacts" id="contacts">
+            <div class="form__container">
+              <h2 data-i18="contact-me"  class="contacts__title">Contact me</h2>
+              <form class="form">
+                <input data-i18="email-input" class="input" type="email" placeholder="E-mail">
+                <input data-i18="phone-input" class="input" type="tel" placeholder="Phone">
+                <textarea data-i18="message" class="textarea" placeholder="Message"></textarea>
+              </form>
+              <button data-i18="send-message"  class="btn-gold btn-contacts btn5">Send message</button>
+            </div>
+          </section>
+        </div>
+    </main>
+  
+    <div class="container">
+      <footer class="footer">
+        <div class="footer__left">
+          <span>&copy;</span>
+          <span>2022</span>
+          <a class="github" href="https://github.com/tayahanchar" target="_blank">github</a>
+        </div>
+        <div class="footer__center">
+         <a class="rs" href="https://rs.school/js/" target="_blank">Rolling Scopes School</a> 
+        </div>
+        <ul class="footer__right">
+          <li><a href="#">
+            <svg class="inst">
+              <use xlink:href="./assets/svg/sprite.svg#inst"></use>
+            </svg>
+          </a></li>
+          <li><a href="#">
+            <svg class="fb">
+              <use xlink:href="./assets/svg/sprite.svg#fb"></use>
+            </svg>
+          </a></li>
+          <li><a href="#">
+            <svg class="tw">
+              <use xlink:href="./assets/svg/sprite.svg#tw"></use>
+            </svg>
+          </a></li>
+          <li><a href="#">
+            <svg class="pinterest">
+              <use xlink:href="./assets/svg/sprite.svg#pinterest"></use>
+            </svg>
+          </a></li>
+        </ul>
+      </footer>
+    </div>
+  </div>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
